@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber-Cueillette - Accueil</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/Uber-Cueillette-logo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="../images/Uber-Cueillette-logo.png" alt="Uber-Cueillette" class="logo-img">
+                <span>Uber<span>Cueillette</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="#fonctionnement">Comment ça marche</a></li>
+                <li><a href="#avantages">Avantages</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="../racine/login.php" class="btn btn-outline">Connexion</a>
+                <a href="../racine/registre.php" class="btn btn-primary">Inscription</a>
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Connectez agriculteurs et ouvriers pour les récoltes</h1>
+                <p>La première plateforme qui facilite le recrutement saisonnier dans l'agriculture en Tunisie</p>
+                <div class="hero-buttons">
+                    <a href="../racine/registre.php?type=agriculteur" class="btn btn-primary btn-large">
+                        <i class="fas fa-tractor"></i> Je suis agriculteur
+                    </a>
+                    <a href="../racine/registre.php?type=ouvrier" class="btn btn-outlineO btn-large">
+                        <i class="fas fa-user-hard-hat"></i> Je suis ouvrier
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../images/hero-agriculture1.png" alt="Récolte d'olives">
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Statistiques -->
+    <section class="stats">
+        <div class="container">
+            <div class="stat-item">
+                <div class="stat-number">500+</div>
+                <div class="stat-label">Agriculteurs inscrits</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1000+</div>
+                <div class="stat-label">Ouvriers disponibles</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">300+</div>
+                <div class="stat-label">Offres pourvues</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">24</div>
+                <div class="stat-label">Gouvernorats</div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- Comment ça marche -->
+    <section id="fonctionnement" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">Comment ça marche ?</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-user-plus"></i></div>
+                    <h3>1. Inscription</h3>
+                    <p>Créez votre compte gratuitement</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3>2. Publication</h3>
+                    <p>Publiez une offre ou trouvez un chantier</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>3. Candidature</h3>
+                    <p>Postulez ou acceptez des candidatures</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon"><i class="fas fa-star"></i></div>
+                    <h3>4. Notation</h3>
+                    <p>Notez la qualité du travail</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avantages -->
+    <section id="avantages" class="features">
+        <div class="container">
+            <h2 class="section-title">Pourquoi choisir Uber-Cueillette ?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-clock feature-icon"></i>
+                    <h3>Gain de temps</h3>
+                    <p>Trouvez rapidement des ouvriers</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h3>Fiabilité</h3>
+                    <p>Consultez les notes des ouvriers</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-map-marker-alt feature-icon"></i>
+                    <h3>Proximité</h3>
+                    <p>Travaillez près de chez vous</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-hand-holding-usd feature-icon"></i>
+                    <h3>Rémunération juste</h3>
+                    <p>Prix clair et transparent</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Types de récoltes -->
+    <section class="harvest-types">
+        <div class="container">
+            <h2 class="section-title">Nos types de récoltes</h2>
+            <div class="types-grid">
+                <div class="type-item">
+                    <img src="../images/olive.png" alt="Olives">
+                    <span>Olives</span>
+                </div>
+                <div class="type-item">
+                    <img src="../images/agrumes.png" alt="Agrumes">
+                    <span>Agrumes</span>
+                </div>
+                <div class="type-item">
+                    <img src="../images/tomates.png" alt="Tomates">
+                    <span>Tomates</span>
+                </div>
+                <div class="type-item">
+                    <img src="../images/raisin.png" alt="Raisin">
+                    <span>Raisin</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Ils nous font confiance</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <img src="../images/agric.png" alt="Agriculteur" class="testimonial-img">
+                    <p class="testimonial-text">"Grâce à Uber-Cueillette, j'ai trouvé des ouvriers fiables pour ma récolte d'olives."</p>
+                    <h4>Ahmed Ben Mahmoud</h4>
+                    <span>Agriculteur - Sfax</span>
+                </div>
+                <div class="testimonial-card">
+                    <img src="../images/ouvrier.png" alt="Ouvrier" class="testimonial-img">
+                    <p class="testimonial-text">"Je travaille régulièrement pendant les saisons de récolte."</p>
+                    <h4>Mohamed Ali</h4>
+                    <span>Ouvrier - Nabeul</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appel à l'action -->
+    <section class="cta">
+        <div class="container">
+            <h2>Prêt à commencer ?</h2>
+            <p>Rejoignez la communauté Uber-Cueillette dès aujourd'hui</p>
+            <a href="../racine/registre.php" class="btn btn-primary btn-large">S'inscrire maintenant</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Uber-Cueillette</h4>
+                    <p>La plateforme n°1 de mise en relation agriculteurs-ouvriers en Tunisie</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="#fonctionnement">Comment ça marche</a></li>
+                        <li><a href="#avantages">Avantages</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contact@uber-cueillette.tn</li>
+                        <li><i class="fas fa-phone"></i> +216 XX XXX XXX</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Tunis, Tunisie</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Suivez-nous</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Uber-Cueillette - ISG Tunis. Projet Programmation Web 2</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/validation.js"></script>
+</body>
+</html>

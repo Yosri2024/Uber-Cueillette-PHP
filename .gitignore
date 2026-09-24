@@ -1,0 +1,25 @@
+# PHP
+vendor/
+composer.lock
+.env
+.env.local
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Uploads
+uploads/
+*.tmp
+
+# Config secrets
+config/secrets.php
